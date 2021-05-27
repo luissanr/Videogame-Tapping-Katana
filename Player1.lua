@@ -1,5 +1,7 @@
 Player1 = Class{}
 
+require 'Animation'
+
 function Player1:init()
     self.image = love.graphics.newImage('graphics/player01.png')
     self.width = self.image:getWidth()
